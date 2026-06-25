@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Google Antigravity</title>
+  <meta name="description" content="Google Antigravity - Build the new way">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Google Antigravity">
+  <meta property="og:url" content="https://antigravity.google">
+  <meta property="og:title" content="Google Antigravity">
+  <meta property="og:description" content="Google Antigravity - Build the new way">
+  <meta property="og:image" content="https://antigravity.google/assets/image/sitecards/sitecard-default.png">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@antigravity">
+  <meta name="twitter:title" content="Google Antigravity">
+  <meta name="twitter:description" content="Google Antigravity - Build the new way">
+  <meta name="twitter:image" content="https://antigravity.google/assets/image/sitecards/sitecard-default.png">
+  <!-- Cookie bar CSS -->
+  <link href="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css" rel="stylesheet">
+  <!--end of cookie-->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="assets/image/antigravity-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,ROND@8..144,-10..0,25..150,400..500,0..100&amp;display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD,ROND@40..48,300,0..1,0,50&amp;display=block">
+  <link rel="stylesheet" href="styles-NNWH23TG.css">
+</head>
+
+<body>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function glueCookieNotificationBarLoaded() {
+      // GTM BOOTSTRAP CODE
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0]
+          , j = d.createElement(s)
+          , dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      }
+      )(window, document, 'script', 'dataLayer', 'GTM-M4N2ZKXQ');
+    }
+  </script>
+  <main>
+    <app-root></app-root>
+  </main>
+  <!-- Cookie Notification Bar -->
+  <script src="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+    data-glue-cookie-notification-bar-category="2A" data-glue-cookie-notification-bar-language=""
+    data-glue-cookie-notification-bar-site-id=""></script>
+  <link rel="modulepreload" href="chunk-E6TGZIGP.js">
+  <script src="main-462OM7XN.js" type="module"></script>
+  <!-- Code injected by live-server -->
+  <script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload')
+            window.location.reload();
+          else if (msg.data == 'refreshcss')
+            refreshCSS();
+        }
+          ;
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      }
+      )();
+    } else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+  </script>
+</body>
+
+</html>
